@@ -25,6 +25,7 @@ use super::big::BIG;
 use types::{SexticTwist, CurvePairingType, SignOfX};
 use std::str::SplitWhitespace;
 use std::fmt;
+use std::prelude::v1::*;
 
 #[derive(Copy, Clone)]
 pub struct ECP2 {

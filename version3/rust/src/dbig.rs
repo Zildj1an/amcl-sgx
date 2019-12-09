@@ -21,6 +21,7 @@ use super::super::arch;
 use super::big;
 use super::big::BIG;
 use super::super::arch::Chunk;
+use std::prelude::v1::*;
 
 #[derive(Copy)]
 pub struct DBIG {

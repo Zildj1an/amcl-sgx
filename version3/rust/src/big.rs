@@ -29,6 +29,7 @@ pub use super::rom::MODBYTES;
 pub use super::rom::BASEBITS;
 use std::cmp::Ordering;
 use std::fmt;
+use std::prelude::v1::*;
 
 pub const NLEN: usize = (1 + ((8 * MODBYTES - 1) / BASEBITS));
 pub const DNLEN: usize = 2 * NLEN;

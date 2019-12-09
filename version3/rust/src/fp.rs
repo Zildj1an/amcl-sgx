@@ -25,6 +25,7 @@ use super::super::arch::Chunk;
 use super::super::arch;
 use types::ModType;
 use std::str::FromStr;
+use std::prelude::v1::*;
 
 #[derive(Copy, Clone)]
 pub struct FP {

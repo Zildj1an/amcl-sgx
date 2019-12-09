@@ -30,6 +30,8 @@ use hash384::HASH384;
 use hash512::HASH512;
 use rand::RAND;
 
+use std::prelude::v1::*;
+
 pub const INVALID_PUBLIC_KEY: isize = -2;
 pub const ERROR: isize = -3;
 pub const INVALID: isize = -4;

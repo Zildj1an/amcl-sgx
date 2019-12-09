@@ -14,7 +14,7 @@ name = "amcl"
 path = "src/lib.rs"
 
 [features]
-default = ["bn254"]
+default = ["bn254","mesalock_sgx"]
 bn254 = []
 bn254CX = []
 ansii = []
@@ -44,3 +44,7 @@ secp256k1 = []
 rsa2048 = []
 rsa3072 = []
 rsa4096 = []
+mesalock_sgx = ["sgx_tstd"]
+
+[target.'cfg(not(target_env = "sgx"))'.dependencies]
+sgx_tstd = { rev = "v1.0.9", git = "https://github.com/baidu/rust-sgx-sdk.git", optional = true }

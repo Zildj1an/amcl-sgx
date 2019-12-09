@@ -21,6 +21,7 @@ use super::fp::FP;
 use super::fp2::FP2;
 use super::big::BIG;
 use std::str::SplitWhitespace;
+use std::prelude::v1::*;
 
 #[derive(Copy, Clone)]
 pub struct FP4 {

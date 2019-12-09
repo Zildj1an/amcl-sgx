@@ -24,6 +24,7 @@ use super::dbig::DBIG;
 use super::rom;
 use std::str::SplitWhitespace;
 use std::fmt;
+use std::prelude::v1::*;
 
 #[derive(Copy, Clone)]
 pub struct FP2 {

@@ -25,6 +25,7 @@ use super::rom;
 use types::SexticTwist;
 use std::str::SplitWhitespace;
 use super::ecp;
+use std::prelude::v1::*;
 
 pub const ZERO: usize=0;
 pub const ONE: usize=1;

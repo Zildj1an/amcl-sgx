@@ -17,8 +17,9 @@ specific language governing permissions and limitations
 under the License.
 */
 
-use std::time::SystemTime;
-use std::time::UNIX_EPOCH;
+
+use std::time::*;
+use std::untrusted::time::SystemTimeEx;
 
 use super::big;
 use super::big::BIG;

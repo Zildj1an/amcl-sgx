@@ -26,6 +26,7 @@ pub use super::rom::{CURVETYPE, CURVE_PAIRING_TYPE, SEXTIC_TWIST, SIGN_OF_X, HAS
 pub use types::CurveType;
 use std::str::SplitWhitespace;
 use std::fmt;
+use std::prelude::v1::*;
 
 #[derive(Copy, Clone)]
 pub struct ECP {
